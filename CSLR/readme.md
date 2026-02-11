@@ -45,18 +45,30 @@ Continuous Sign Language Recognition Dataset (Inertial Sensor-Based)
 *** Data Format ***
 
   The dataset is organized into separate files for:
+  
       Two-digit numbers
+      
       Three-digit numbers
+      
       Four-digit numbers
+      
       Six-digit numbers
+      
   Each file is stored in NumPy (.npy) format and has four dimensions:
       (samples, time_frames, modules, features)
+      
   Dimension Description
+  
     First dimension (samples) represents different recorded gesture sequences.
+    
     Second dimension (time_frames) is the number of temporal frames for each sample.
+    
     Third dimension (modules) represents the 6 active sensor modules.
+    
     Fourth dimension (features per module), Each module contains 6 values:
+    
         First 3 values: Accelerometer data (x, y, z)
+        
         Next 3 values: Gyroscope data (x, y, z)
 
 *** Label Structure ***
