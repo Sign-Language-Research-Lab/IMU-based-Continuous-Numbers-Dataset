@@ -1,6 +1,6 @@
 Continuous Sign Language Recognition Dataset (Inertial Sensor-Based)
 
-# Project Description **
+# Project Description
 
   This dataset has been developed for continuous sign language word recognition using inertial sensor data.
   The recorded gestures correspond to multi-digit numbers, as these can be expressed using movements of a single hand only. 
